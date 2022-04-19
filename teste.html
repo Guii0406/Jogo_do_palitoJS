@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aaaaa</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Jogo do palito</h1>
+    <div id="all">
+        <label for="quantpalitoss">Escolha a quantidade de palitos: </label>
+        <input  min="20" max="30" type="number" name="" id="quantpalitoss">
+        <input  type="button" value="Jogar" id="jogar" onclick="jogar()">
+    <br>
+    <br>
+       <div id="retirar">
+            <label for="jogadaplayerr">Quantos palitos deseja retirar? </label> &nbsp;&nbsp;
+            <input maxlength="1" min="1" max="3" type="number" name="" id="jogadaplayerr">
+            <input id="btn-retirar" type="button" value="Retirar" onclick="retirar()">
+        </div>
+
+        <textarea readonly name="" id="logg" cols="30" rows="10"></textarea>
+    </div>
+
+    <script src="functions.js"></script>
+</body>
+</html>
